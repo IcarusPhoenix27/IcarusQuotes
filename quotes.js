@@ -1,15 +1,83 @@
 const localQuotes = [
   {
-    text: 'Genius is one percent inspiration and ninety-nine percent perspiration.',
-    author: 'Thomas Edison',
+    text: 'I would rather be exposed to the inconveniences attending too much liberty than those attending too small a degree of it.',
+    author: 'Thomas Jefferson',
+  },
+  {
+  text:'Foreign aid goes from poor people in rich countries to rich people in poor countries.',
+    author:'Rand Paul',
+  },
+  {
+  text:'War is peace. Freedom is slavery. Ignorance is strength.',
+    author:'George Orwell',
+  },
+  {
+  text:'The most basic question is not what is best, but who shall decide what is best.',
+    author:'Thomas Sowell',
+  },
+  {
+  text:'The smallest minority on earth is the individual. Those who deny individual rights cannot claim to be defenders of minorities.',
+    author:'Ayn Rand',
+  },
+  {
+  text:'I ask, sir, what is the militia? It is the whole people except for a few public officials.',
+    author:'George Mason',
+  },
+  {
+  text:'The urge to save humanity is almost always a false front for the urge to rule.',
+    author:'H.L Mencken',
+  },
+  {
+  text:'The United States is a nation of laws: badly written and randomly enforced.',
+    author:'Frank Zappa',
+  },
+  {
+  text:'Things in our country run in spite of government, not by aid of it.',
+    author:'Will Rogers',
+  },
+  {
+  text:'Freedom is essentially a condition of inequality, not equality. It recognizes as a fact of nature the structural differences inherent in man - in temperament, character, and capacity - and it respects those differences. We are not alike and no law can make us so.',
+    author:'Frank Chodorov',
+  },
+  {
+  text:'After a shooting spree, they always want to take the guns away from the people who didn't do it.',
+    author:'William S. Burroughs',
+  },
+  {
+  text:'Never forget that everything Hitler did in Germany was legal.',
+    author:'Martin Luther King Jr.',
+  },
+  {
+  text:'Well, if crime fighters fight crime and fire fighters fight fire, what do freedom fighters fight?',
+    author:'George Carlin',
+  },
+  {
+  text:'There is small choice in rotten apples.',
+    author:'William Shakespeare',
+  },
+  {
+  text:'Left-wing politicians take away your liberty in the name of children and of fighting poverty, while right-wing politicians do it in the name of family values and fighting drugs. Either way, government gets bigger and you become less free.',
+    author:'Harry Browne',
+  },
+  {
+  text:'What the government is good at is collecting taxes, taking away your freedoms and killing people. It is not good at much else.',
+    author:'Tom Clancy',
+  },
+  {
+  text:'Extremism in the defense of liberty is no vice. And moderation in the pursuit of justice is no virtue.',
+    author:'Barry Goldwater',
+  },
+  {
+  text:'Sometimes people do not want to hear the truth because they do not want their illusions destroyed.',
+    author:'Friedrich Nietzsche',
+  },
+  {
+  text:'I mean, `I have always been a libertarian. Leave everybody alone. Let everybody else do what they want. Just stay out of everybody elses hair.',
+    author:'Clint Eastwood',
   },
   {
     text: 'You can observe a lot just by watching.',
     author: 'Yogi Berra',
-  },
-  {
-    text: 'A house divided against itself cannot stand.',
-    author: 'Abraham Lincoln',
   },
   {
     text: 'Difficulties increase the nearer we get to the goal.',
@@ -42,14 +110,6 @@ const localQuotes = [
   {
     text: 'Peace comes from within. Do not seek it without.',
     author: 'Buddha',
-  },
-  {
-    text: 'What you give is what you get.',
-    author: 'Byron Pulsifer',
-  },
-  {
-    text: 'We can only learn to love by loving.',
-    author: 'Iris Murdoch',
   },
   {
     text: 'Life is change. Growth is optional. Choose wisely.',
@@ -116,10 +176,6 @@ const localQuotes = [
     author: 'Sigmund Freud',
   },
   {
-    text: 'Well done is better than well said.',
-    author: 'Benjamin Franklin',
-  },
-  {
     text: 'Bite off more than you can chew, then chew it.',
     author: 'Ella Williams',
   },
@@ -180,10 +236,6 @@ const localQuotes = [
     author: 'Leonardo da Vinci',
   },
   {
-    text: 'Be kind whenever possible. It is always possible.',
-    author: 'Dalai Lama',
-  },
-  {
     text: "Talk doesn't cook rice.",
     author: 'Chinese proverb',
   },
@@ -224,20 +276,12 @@ const localQuotes = [
     author: 'Murray Gell-Mann',
   },
   {
-    text: "Love is the flower you've got to let grow.",
-    author: 'John Lennon',
-  },
-  {
     text: "Don't wait. The time will never be just right.",
     author: 'Napoleon Hill',
   },
   {
     text: 'Time is the wisest counsellor of all.',
     author: 'Pericles',
-  },
-  {
-    text: 'You give before you get.',
-    author: 'Napoleon Hill',
   },
   {
     text: 'Wisdom begins in wonder.',
@@ -248,10 +292,6 @@ const localQuotes = [
     author: 'Baltasar Gracian',
   },
   {
-    text: 'Change in all things is sweet.',
-    author: 'Aristotle',
-  },
-  {
     text: 'What you fear is that which requires action to overcome.',
     author: 'Byron Pulsifer',
   },
@@ -259,10 +299,7 @@ const localQuotes = [
     text: 'When performance exceeds ambition, the overlap is called success.',
     author: 'Cullen Hightower',
   },
-  {
-    text: 'When deeds speak, words are nothing.',
-    author: 'African proverb',
-  },
+
   {
     text: 'Real magic in relationships means an absence of judgement of others.',
     author: 'Wayne Dyer',
@@ -440,10 +477,6 @@ const localQuotes = [
     author: 'Buddha',
   },
   {
-    text: 'The shortest answer is doing.',
-    author: 'Lord Herbert',
-  },
-  {
     text: 'All our knowledge has its origins in our perceptions.',
     author: 'Leonardo da Vinci',
   },
@@ -471,10 +504,7 @@ const localQuotes = [
     text: 'Society develops wit, but its contemplation alone forms genius.',
     author: 'Madame de Stael',
   },
-  {
-    text: 'The simplest things are often the truest.',
-    author: 'Richard Bach',
-  },
+ 
   {
     text: 'Everyone smiles in the same language.',
     author: 'unknown',
@@ -527,18 +557,12 @@ const localQuotes = [
     text: 'Reality does not conform to the ideal, but confirms it.',
     author: 'Gustave Flaubert',
   },
-  {
-    text: 'Speak low, if you speak love.',
-    author: 'William Shakespeare',
-  },
+ 
   {
     text: 'A really great talent finds its happiness in execution.',
     author: 'Johann Wolfgang von Goethe',
   },
-  {
-    text: 'Reality leaves a lot to the imagination.',
-    author: 'John Lennon',
-  },
+ 
   {
     text: 'The greatest remedy for anger is delay.',
     author: 'Seneca',
