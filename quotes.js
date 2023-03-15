@@ -40,7 +40,7 @@ const localQuotes = [
     author:'Frank Chodorov',
   },
   {
-  text:'After a shooting spree, they always want to take the guns away from the people who didn't do it.',
+  text:'After a shooting spree, they always want to take the guns away from the people who didnt do it.',
     author:'William S. Burroughs',
   },
   {
